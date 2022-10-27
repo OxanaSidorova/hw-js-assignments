@@ -11,7 +11,6 @@ return x;
 function divideBalanceByAccounts(x, y) {
   x = x / y;
   return x;
-  console.log("x");
 }
 
 function getRestAfterDivision(x, y) {
