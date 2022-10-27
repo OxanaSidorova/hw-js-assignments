@@ -1,4 +1,4 @@
-# Assignment operations in JS
+# 1. Assignment operations in JS
 An assignment operator assigns a value to its left operand based on the value of its right operand. 
 
 |Name|	Shorthand operator|	Meaning|
@@ -10,6 +10,12 @@ An assignment operator assigns a value to its left operand based on the value of
 |Division assignment|	x /= f()|	x = x / f()|
 |Remainder assignment|	x %= f()|	x = x % f()|
 
+# The increment and decrement operations.
+### The increment operator (++)
+increments its operand by 1; that is, it adds 1 to the existing value. 
+### The decrement operator (--) 
+that decrements a variable's value by 1. That is, it subtracts 1 from the value.
 
+JavaScript provides these operators since incrementing and decrementing by 1 are such commonplace operations.
 
-![octopus cat](https://www.google.com/url?sa=i&url=https%3A%2F%2Fsmhatre59.medium.com%2Fthe-untold-story-of-github-132840f72f56&psig=AOvVaw1MlOuc44YMtXmWGpsBK0xL&ust=1666954799768000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCOir9taggPsCFQAAAAAdAAAAABAE)
+There are two forms of ++: one that comes before the variable name (**the pre-increment operator** ), and one that comes after (**the post-increment operator**). Both increment the variable, but they differ in what gets returned by the expression. The pre-increment form returns the new value of the variable, while the post-increment form returns the previous value of the variable.
